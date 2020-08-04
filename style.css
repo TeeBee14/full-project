@@ -1,0 +1,86 @@
+
+.logo{
+	background-color: black;
+	animation-name:rainbow;
+    animation-duration:10s;
+}
+
+@media (max-height:800px) { /* CSS Rules */} 
+  
+
+@keyframes rainbow{ 
+  0%{
+    background-color:blue;
+  }
+
+  50%{
+    background-color:green;
+  }
+
+  100%{
+    background-color:yellow;
+  }
+}
+
+#image{
+	float: left;
+	height: 70px;
+	width: 210px;
+	margin:auto;
+}
+
+#mytext{
+	color:gold;
+	text-align:left;
+	font-size:15px;
+	padding-top:30px;
+	height: 50px;
+	
+}
+
+a:link{
+	color:green;
+	text-decoration: none;
+	margin-left:40px;
+	padding-bottom:-5px;
+
+}
+
+.center{
+	background-image:url("pictures/images4.jpeg");
+	background-repeat: no-repeat;
+	height:700px;
+	width:1380px;
+}
+
+#banger{
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+
+.plenty_images{
+  	float:left;
+  	margin-left:60px;
+  	padding-bottom: 5px;
+}
+
+
+#down{
+	height:150px;
+	width:300px;
+}
+
+
+.the_end{
+	padding-top: 200px;
+	font-weight: bold;
+	background-color: black;
+}
+footer{
+	color:red;
+	background-color:blue;
+	height: 50px;
+	padding-top:30px;
+	padding-left: 100px;
+}
